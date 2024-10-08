@@ -8,9 +8,6 @@ UNOBOT = Robot(200, 1500)
 MADBOT = Robot(100, 3000)
 MEGABOT = Robot(150, 2000)
 class Game:
-  def __init__(self, First, Second):
-    self.First = First
-    self.Second = Second
 class Battle:
   def Start_Battle():
     print("Battle Start!")
